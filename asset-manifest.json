@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/marvelMoviesBlog/static/css/main.073c9b0a.css",
-    "main.js": "/marvelMoviesBlog/static/js/main.0fd84161.js",
+    "main.js": "/marvelMoviesBlog/static/js/main.6a7607ba.js",
     "index.html": "/marvelMoviesBlog/index.html",
     "main.073c9b0a.css.map": "/marvelMoviesBlog/static/css/main.073c9b0a.css.map",
-    "main.0fd84161.js.map": "/marvelMoviesBlog/static/js/main.0fd84161.js.map"
+    "main.6a7607ba.js.map": "/marvelMoviesBlog/static/js/main.6a7607ba.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.0fd84161.js"
+    "static/js/main.6a7607ba.js"
   ]
 }
