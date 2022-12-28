@@ -34,7 +34,10 @@ class Login extends Component{
             }
             
             const Response=await fetch(profileUrl,options);
-            console.log(Response)
+            const Data=await Response.arrayBuffer()
+            const blob=new Blob([Data],{type:"image/jpeg"});
+            const url=URL.createObjectURL(blob);
+            console.log(Response,Data,url)
         }
         else{
             console.log(response);
