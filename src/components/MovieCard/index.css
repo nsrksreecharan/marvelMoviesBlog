@@ -1,0 +1,67 @@
+.MovieCardContainer{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    padding: 5px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(225, 226, 236);;
+    margin:10px;
+}
+.blackMovieCardContainer{
+    background-color: rgb(37, 36, 36);
+}
+.cash{
+    color: green;
+}
+.rupee{
+    color: black;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.CardName{
+    font-weight: 700;
+    width:200px;
+    text-align: center;
+    margin:0px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottomLineCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    margin-top:10px;
+}
+.belowBottomLine{
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+}
+.ReadMore{
+    margin: 0px;
+}
+.BudgetName{
+    margin:0px;
+    font-size: 13px;
+    text-align: center;
+}
+.Amount{
+    margin:2px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bottomLineCard{
+    padding: 0px;
+}
+.year{
+    margin: 0px;
+    font-weight: 600;
+}

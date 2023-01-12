@@ -1,0 +1,236 @@
+.profilePictureLogin{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.NoProfileBox{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    border: 2px solid black;
+    color:inherit;
+}
+.NormalProfile{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    border: 2px solid black;
+    color:inherit ;
+    background-color: transparent !important;
+}
+
+.Face{
+    font-size:75px;
+    color:inherit;
+}
+
+.RegisterForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FormItemsContainer{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.InputBoxesContainer{
+    margin: 20px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    width:240px;
+}
+
+.loginButton{
+    background-color: #008cff;
+    width:250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color:white;
+    margin:20px 10px 5px 10px;
+}
+
+.LoginPage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.LoginPageBox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid gray;
+    padding:30px;
+    box-shadow: 5px 5px 40px 2px black;
+    border-radius: 15px;
+    background-color: white;
+
+}
+.RegisterPage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    height: 100%;
+}
+.RegisterPageBox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid gray;
+    padding:30px;
+    box-shadow: 5px 5px 40px 2px black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.LoginLogo{
+    width:300px;
+    margin:20px;
+}
+
+
+
+.RegisterPageLink{
+    color:rgb(0, 89, 255);
+}
+.blackLogin{
+    background-color:black;
+    box-shadow: 5px 10px 100px -40px white;
+}
+.blackProfile{
+    border: 2px solid white;
+    color: #ffffff !important;
+}
+.input{
+    height: 40px;
+    padding:5px 5px 5px 10px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin:10px 0px 10px 0px;
+    background-color: transparent;
+    outline: none;
+    color: #ffffff;
+}
+.input:focus{
+    border-color:rgb(0, 138, 252) ;
+}
+
+.Input{
+    padding:5px 5px 5px 10px;
+    border:none;
+    background-color: transparent;
+    line-height: 25px;
+    outline: none;
+    color:white;
+}
+.input:focus{
+    
+        border-color: rgb(0, 138, 252);
+    
+}
+.label{
+    line-height: 25px;
+    font-weight: 700;
+}
+.DotLoader{
+    color:white;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.darkInput{
+    border-color:white;
+}
+.ProfilePictureContainerLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.error{
+    color:rgb(248, 29, 0);
+    margin:0px;
+    padding: 0px;
+}
+.blackBackground{
+    background-color: rgb(26, 26, 26);
+}
+.whiteBackground{
+    background-color: rgb(225, 226, 236);
+}
+
+.white{
+    color:white;
+}
+
+/* colors */
+
+.yellow{
+    background-color: rgb(251, 255, 0);
+    color:rgb(0, 0, 0) !important;
+}
+.green{
+    background-color: rgb(43, 255, 0);
+    color:red;
+
+}
+.red{
+    background-color: rgb(255, 0, 0);
+    color:black !important;
+
+}
+.blue{
+    background-color: rgb(0, 255, 191);
+    color:rgb(0, 0, 0);
+}
+.orange{
+    background-color: rgb(255, 115, 0);
+    color:red;
+}
+
+.lightBlue{
+    background-color: rgb(0, 162, 255);
+    color:red;
+}
+

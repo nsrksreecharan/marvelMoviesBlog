@@ -1,0 +1,69 @@
+.MovieDetailsContainer{
+    width:100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+.ReactPlayerContianer{
+    margin-right: 100px;
+}
+.PosterAndTrailerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85vw;
+    padding: 50px 50px 0px 50px;
+}
+.filmPoster{
+    height: 400px;
+}
+.FilmTitleAndLikeDisLikeContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 30px 20px 50px;
+    width: 85vw;
+}
+.LikeDislikeContainer{
+    display: flex;
+    flex-direction: row;
+    margin-right: 110px;
+}
+.plotContainer{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plot{
+    width:800px;
+    line-height: 0.8cm;
+}
+.plotHeaderContainer{
+    
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.HrLine{
+    width:95vw;
+    margin: 0px;
+}
+.castHeading{
+    margin: 0px;
+    padding: 0px;
+    margin-top:20px;
+}
+.CastContainer{
+    width:85vw;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.castBox{
+    margin-left: 30px;
+}

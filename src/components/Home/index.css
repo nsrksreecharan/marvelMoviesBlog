@@ -1,0 +1,81 @@
+.Home{
+    margin-top: 0px;
+    padding:30px ;
+}
+.ReactSlickContainer{
+    width:80vw;
+    padding:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:0px;
+}
+.slider{
+    width:80vw;
+    display: flex;
+    justify-content: center;
+}
+.SlickContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    margin-top:50px;
+}
+.SlickHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin: 10px;
+    font-size: 10px;
+}
+.slick-prev,.slick-next,.slick-prev:before,.slick-next:before{
+    background-color: black;
+    border-radius:50%;
+}
+.Banner{
+    background-image: url("https://res.cloudinary.com/dub9ymu0j/image/upload/v1672587552/54684_tdkheg.jpg") ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 80vh;
+    width:80vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+}
+.Banner1{
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.BannerTitle{
+    margin:0px;
+    padding: 30px;
+    width:60vw;
+}
+.moviesButton{
+    background-color: rgb(0, 174, 255);
+    color:white;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    width:100px;
+    border-radius: 5px;
+}
+.blackHome{
+    background-color: black;
+    color: white;
+}
+.blackSlick{
+    
+    border: 1px solid gray;
+    background-color: rgb(54, 54, 54);
+    border-radius: 15px;
+}

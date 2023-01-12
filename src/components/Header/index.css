@@ -1,0 +1,96 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin: 0px;
+}
+.blackBackgroundHeader{
+    background-color: rgb(26, 26, 26);
+    color:white;
+}
+.whiteBackgroundHeader{
+    background-color: rgb(225, 226, 236);
+}
+.HeaderProfilePicture{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.sun{
+    color:rgb(255, 153, 0);
+    cursor:pointer;
+}
+.moon{
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+}
+.ThemeButton{
+    border: none;
+    background-color: transparent;
+    font-size:20px;
+}
+.ProfileContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ProfileBoxHeader{
+    margin:10px 10px 15px 20px;
+}
+.NavigationLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:200px;
+    margin-right:30px;
+}
+.LogoutButton{
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    outline:none;
+    color:white;
+    padding:5px;
+    font-size:15px;
+    font-weight: 700;
+}
+.NameProfile{
+    height: 50px;
+    width:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.userLetter{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+.ProfilePicture{
+    border-radius: 50%;
+    width:300px;
+    height: 300px;
+}
+.WebsiteLogo{
+    height: 50px;
+    width:15y0px;
+}
+.NavigatorButton{
+    color:inherit;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+}
